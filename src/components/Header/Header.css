@@ -1,0 +1,44 @@
+.header{
+    width: 97.8%;
+    height: 10px;
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    color: white;
+}
+
+.headerCenter{
+    margin-left: auto; /* assim alinhamos no centro um bloco de codigo */
+    margin-right: auto; /* assim alinhamos no centro um bloco de codigo */
+    margin-top: -10px;
+}
+
+.headerRight{
+    margin-right: 15px;
+    margin-top: -15px;
+}
+
+.headerCenter > input{
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 500px;
+    background-color: purple;
+    color: white;
+    padding: 5px;
+ 
+}
+::-webkit-input-placeholder { /* mudando a cor do placeholder do input */
+    color: white;
+}
+
+
+.acesstime{
+    padding-right: 50px;
+
+}
+
+.help{
+    padding-left: 50px;
+}
+
